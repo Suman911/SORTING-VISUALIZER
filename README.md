@@ -6,20 +6,18 @@ Sorting algorithms are used to sort a data structure according to a specific ord
 Those two kinds of complexity are represented with asymptotic notations, mainly with the symbols O, Θ, Ω, representing respectively the upper bound, the tight bound, and the lower bound of the algorithm's complexity, specifying in brackets an expression in terms of n, the number of the elements of the data structure.
 Most of them fall into two categories:
 
-```diff
-+ Logarithmic
+✨Logarithmic
+
 The complexity is proportional to the binary logarithm (i.e to the base 2) of n.
 An example of a logarithmic sorting algorithm is Quick sort, 
 with space and time complexity O(n × log n).
-```
 
-```diff
-+ Quadratic
+✨Quadratic
+
 The complexity is proportional to the square of n.
 An example of a quadratic sorting algorithm is Bubble sort, with a time complexity of O(n2).
 Space and time complexity can also be further subdivided into 3 different 
 cases: best case, average case and worst case.
-```
 
 Sorting algorithms can be difficult to understand and it's easy to get confused. Visualizing sorting algorithms can be a great way to better understand their functioning.
 
